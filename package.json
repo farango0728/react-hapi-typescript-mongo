@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon -e ts --exec \"npm run buildrun\"",
     "build": "tsc",
-    "buildrun": "npm run build && node ./dist/index.js "
+    "buildrun": "npm run build && node ./dist/index.js ",
+    "start" : "node index.js"
   },
   "keywords": [],
   "author": "",
