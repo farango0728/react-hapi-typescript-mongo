@@ -4,7 +4,7 @@ import { routes } from "./routes";
 export const init = async () => {
   const server: Server = new Server({
     port: 3000,
-    host: "https://indielevelstudio.herokuapp.com"
+    host: "localhost"
   });
 
   routes(server);
