@@ -6,7 +6,7 @@ export const routes = (server: Server) => {
     method: 'GET',
     path: '/',
     handler: (request: Request, h: ResponseToolkit) => {
-      return 'Desde api Hapi Casado';
+      return 'Cansado de las Api';
     }
   });
 }
